@@ -1,0 +1,99 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    .counter1{
+        height: 600px;
+        width: 100vw;
+        background-color: orange;
+    }
+    
+    #navbar{
+        display: flex;
+        position: fixed;
+        top: 0px;
+        width: 100vw;
+        height: 50px;
+        padding: 0;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(19, 86, 114);
+    }
+    #navbar ul{
+        display: flex;
+        width: 1000px;
+        position: absolute;
+        flex-direction: row;
+        justify-content: flex-end;
+        color:WHITE;
+        padding: 2px;
+        margin: 3px;
+    
+    
+    }
+    #navbar ul a{
+        padding: 3px;
+        margin: 3px;
+        text-decoration: none;
+        font-weight: 600;
+        color: white;
+        justify-content: flex-end;
+    }
+    ul{
+        margin: 10px 35px;
+        padding: 40px;
+    
+    }
+    li{
+        margin: 10px 35px;
+    
+    
+    }
+    a{
+        
+    }
+    .counterintro{
+        margin: 0px;
+        padding: 150px;
+        background-color: brown;
+        height: 450px;
+        width: 40vw;
+    
+    }
+    .counter2{
+        background-color: yellow;
+        height: 700px;
+        width: 100vw;
+    }
+    .counter3{
+        background-color: purple;
+        height: 600px;
+        width: 100vw;
+    }
+    .counter4{
+        background-color: violet;
+        height: 500px;
+        width: 100vw;
+    }
+    .counter5{
+        background-color: black;
+        height: 400px;
+        width: 100vw;
+    }
+    #footer{
+        background-color: antiquewhite;
+        height: 300px;
+        width: 100vw;
+    }
+    .footer-container h2{
+        text-align: center;
+        padding-top: 30px;
+    }
+    .social-icon{
+        text-align: center;
+        display: flex;
+        box-sizing: content-box;
+        
+        flex-direction: none;
+    }
+    
